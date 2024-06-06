@@ -21,8 +21,8 @@ export const Apple =  () => {
     const [data, setData] = useState([]);
     useEffect(()=>
         {
-        axios.get('/src/components/home/brands/TopBrands.json').then(
-            (respone)=>{setData(respone.data.Offers)})
+        axios.get('http://localhost:3031/Offers').then(
+            (respone)=>{setData(respone.data)})
     },[])
 return (
     <>

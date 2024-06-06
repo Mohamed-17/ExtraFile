@@ -17,8 +17,8 @@ import { Navigation } from 'swiper/modules';
 export const TopBrands = () => {
     const [data,setData] = useState([])
     useEffect(()=>{
-        axios.get('/src/components/home/brands/TopBrands.json').then(
-            (respone) => setData(respone.data.Brands)
+        axios.get('http://localhost:3031/Brands').then(
+            (respone) => setData(respone.data)
         )
     },[])
   return (

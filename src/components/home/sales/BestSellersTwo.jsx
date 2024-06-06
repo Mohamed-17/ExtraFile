@@ -33,56 +33,56 @@ export const BestSellersTwo = () => {
     const lis = document.querySelectorAll(".ulLinks a");
     
 const mobile = useEffect(()=>{
-    axios.get('/src/components/home/sales/Gifts.json').then(
-        (respone) => setMobileData(respone.data.Mobiles),
+    axios.get('http://localhost:3055/Mobiles').then(
+        (respone) => setMobileData(respone.data),
         
     )
 },[]);
     const tvs = useEffect(()=>{
-        axios.get('/src/components/home/sales/Gifts.json').then(
-            (respone) => setTvsData(respone.data.Tvs),
+        axios.get('http://localhost:3055/Tvs').then(
+            (respone) => setTvsData(respone.data),
             
         )
 },[]);
     const lapTops = useEffect(()=>{
-        axios.get('/src/components/home/sales/Gifts.json').then(
-            (respone) => setlapTopsData(respone.data.lapTops),
+        axios.get('http://localhost:3055/lapTops').then(
+            (respone) => setlapTopsData(respone.data),
             
         )
 },[]);
     const washing = useEffect(()=>{
-        axios.get('/src/components/home/sales/Gifts.json').then(
-            (respone) => setWashingData(respone.data.washing),
+        axios.get('http://localhost:3055/washing').then(
+            (respone) => setWashingData(respone.data),
             
         )
 },[]);
     const refrigetaror = useEffect(()=>{
-        axios.get('/src/components/home/sales/Gifts.json').then(
-            (respone) => setrefrigetarorData(respone.data.refrigetarors),
+        axios.get('http://localhost:3055/refrigetarors').then(
+            (respone) => setrefrigetarorData(respone.data),
             
         )
 },[]);
     const tablets = useEffect(()=>{
-        axios.get('/src/components/home/sales/Gifts.json').then(
-            (respone) => settabletsData(respone.data.tablets),
+        axios.get('http://localhost:3055/tablets').then(
+            (respone) => settabletsData(respone.data),
             
         )
 },[]);
     const vacuum = useEffect(()=>{
-        axios.get('/src/components/home/sales/Gifts.json').then(
-            (respone) => setVacuumData(respone.data.vacuum),
+        axios.get('http://localhost:3055/vacuum').then(
+            (respone) => setVacuumData(respone.data),
             
         )
 },[]);
     const microwaves = useEffect(()=>{
-        axios.get('/src/components/home/sales/Gifts.json').then(
-            (respone) => setMicrowavesData(respone.data.microwaves),
+        axios.get('http://localhost:3055/microwaves').then(
+            (respone) => setMicrowavesData(respone.data),
             
         )
 },[]);
     const outdoors = useEffect(()=>{
-        axios.get('/src/components/home/sales/Gifts.json').then(
-            (respone) => setOutdoorData(respone.data.outdoors),
+        axios.get('http://localhost:3055/outdoors').then(
+            (respone) => setOutdoorData(respone.data),
             
         )
 },[]);

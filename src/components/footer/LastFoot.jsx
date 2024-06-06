@@ -15,7 +15,7 @@ export const LastFoot = () => {
     <div className="FooterFirstSide d-flex flex-column">
     <div className='ExtraLogo col-4'>
     <div className='ImgContent'>
-    <img src="public/logo/eXtraFooterLogo.png" alt="" />
+    <img src="https://cdn.extrastores.com/hybris/new_ui_ux/footer/eXtraFooterLogo.png" alt="" />
     </div>
     <div className="ExtraLogoText">
     eXtra anytime, anywhere!
@@ -25,25 +25,25 @@ export const LastFoot = () => {
     <div className="ScanDownload mt-4 pt-3">
     <div className="Scan">
     <div className="ScanHolder">
-    <img src="public/footer-imgs/qr-code-prod.png" alt="" />
+    <img src="https://cdn.extrastores.com/hybris/new_ui_ux/qr-code-prod.png" alt="" />
     <div className='text-area mt-2'>Scan to download</div>
     </div>
     </div>
     <div className="Download">
-    <a target='_blank' href="https://apps.apple.com/sa/app/extra-%D8%A7%D9%83%D8%B3%D8%AA%D8%B1%D8%A7/id584430757"><img src="public/footer-imgs/download/Download_on_the_App_Store_Badge.png" alt="" /></a>
-    <a href="https://play.google.com/store/apps/details?id=com.asgatech.extra" target='_blank'><img src="public/footer-imgs/download/google-play-badge-updated.png" alt="" /></a>
-    <a target='_blank' href="https://appgallery.huawei.com/app/C100938241"><img src="public/footer-imgs/download/appGallery.png" alt="" /></a>
+    <a target='_blank' href="https://apps.apple.com/sa/app/extra-%D8%A7%D9%83%D8%B3%D8%AA%D8%B1%D8%A7/id584430757"><img src="https://cdn.extrastores.com/hybris/new_ui_ux/footer/Download_on_the_App_Store_Badge.png" alt="" /></a>
+    <a href="https://play.google.com/store/apps/details?id=com.asgatech.extra" target='_blank'><img src="https://cdn.extrastores.com/hybris/new_ui_ux/footer/google-play-badge-updated.png" alt="" /></a>
+    <a target='_blank' href="https://appgallery.huawei.com/app/C100938241"><img src="https://cdn.extrastores.com/hybris/new_ui_ux/footer/appGallery.png" alt="" /></a>
     </div>
     </div>
     <div className="Visa">
-    <img src="public\footer-imgs\visa\Mada_footerlogo.png" alt="" />
-    <img src="public\footer-imgs\visa\visa_footerlogo.png" alt="" />
-    <img src="public\footer-imgs\visa\mc_footerlogo.png" alt="" />
-    <img src="public\footer-imgs\visa\AXP_footerlogo.png" alt="" />
-    <img src="public\footer-imgs\visa\ApplePay_footerlogo.png" alt="" />
-    <img src="public\footer-imgs\visa\tamara_footerlogo.png" alt="" />
-    <img src="public\footer-imgs\visa\tabby_new.png" alt="" />
-    <img className='thawte' src="public\footer-imgs\visa\thawte_footerlogo.png" alt="" />
+    <img src="https://media.extra.com/i/aurora/Mada_footerlogo" alt="" />
+    <img src="https://media.extra.com/i/aurora/visa_footerlogo" alt="" />
+    <img src="https://media.extra.com/i/aurora/mc_footerlogo" alt="" />
+    <img src="https://media.extra.com/i/aurora/AXP_footerlogo" alt="" />
+    <img src="https://media.extra.com/i/aurora/ApplePay_footerlogo" alt="" />
+    <img src="https://media.extra.com/i/aurora/tamara_footerlogo" alt="" />
+    <img src="https://media.extra.com/i/aurora/tabby_new" alt="" />
+    <img className='thawte' src="https://media.extra.com/i/aurora/thawte_footerlogo" alt="" />
     </div>
     </div>
     <div className='AboutUs'>
@@ -114,7 +114,7 @@ export const LastFoot = () => {
     <div className='CopyRight'>
     <p>Copyright © 2024 <span>extra.com.</span> All rights reserved.</p>
     </div>
-    <div className='certified'><img src="public/footer-imgs/ExtraBPTW_Logo.png" alt="" /></div>
+    <div className='certified'><img src="https://media.extra.com/i/aurora/ExtraBPTW_Logo" alt="" /></div>
     <div className='NavLinks'>
     <ul>
       <li><Link to={"/privacypolicy"}>Privacy Policy</Link></li>
@@ -127,7 +127,7 @@ export const LastFoot = () => {
     <p>United Electronics Co. – eXtra. Online Store CR No. 2051232505. VAT No. 300468781910003</p>
     </div>
     <div className="FooterLastImg">
-    <Link><img src="public/footer-imgs/MCI_disLogo.png" alt="" /></Link>
+    <Link><img src="https://media.extra.com/i/aurora/MCI_disLogo" alt="" /></Link>
     </div>
     </div>
   )
