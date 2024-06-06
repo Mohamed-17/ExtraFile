@@ -9,6 +9,7 @@ export const ShopCard = () => {
       .then(res => SetData(res.data.cards))
     }, []);
     return (
+      <>
      <div className="CardsSection">
      <div className="CardsContainer">
     <div className="CardsHolder">
@@ -28,6 +29,6 @@ export const ShopCard = () => {
     </div>
     </div>
      </div>
-     
+     </>
   )
 }
