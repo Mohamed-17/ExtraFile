@@ -1,0 +1,44 @@
+{
+    "cards" : [{
+        "cardId" : 1,
+        "cardName" : "Washing Machine Sale",
+        "cardDescription" : "Shop Now",
+        "cardImg" : "https://media.extra.com/i/aurora/M24_1x4_Washing_Machine_E?&fmt=webp&h=90%201x,%20https://media.extra.com/i/aurora/M24_1x4_Washing_Machine_E?&fmt=webp&h=180%202x"
+    },{
+        "cardId" : 2,
+        "cardName" : "Refrigerators Sale",
+        "cardDescription" : "Shop Now",
+        "cardImg" : "https://media.extra.com/i/aurora/M24_1x4_Refrigerators_E?&fmt=webp&h=90%201x,%20https://media.extra.com/i/aurora/M24_1x4_Refrigerators_E?&fmt=webp&h=180%202x"
+    },{
+        "cardId" : 3,
+        "cardName" : "SmartPhones Sale",
+        "cardDescription" : "Shop Now",
+        "cardImg" : "https://media.extra.com/i/aurora/M24_1x4_SmartPhones_E?&fmt=webp&h=90%201x,%20https://media.extra.com/i/aurora/M24_1x4_SmartPhones_E?&fmt=webp&h=180%202x"
+    },{
+        "cardId" : 4,
+        "cardName" : "Laptops Sale",
+        "cardDescription" : "Shop Now",
+        "cardImg" : "https://media.extra.com/i/aurora/MS24_Travel_Plus_HSlaptop_E1?&fmt=webp&h=90%201x,%20https://media.extra.com/i/aurora/MS24_Travel_Plus_HSlaptop_E1?&fmt=webp&h=180%202x"
+    },{
+        "cardId" : 5,
+        "cardName" : "Kitchen Appliances Sale",
+        "cardDescription" : "Shop Now",
+        "cardImg" : "https://media.extra.com/i/aurora/M24_1x4_Kitchen_Appliances_E?&fmt=webp&h=90%201x,%20https://media.extra.com/i/aurora/M24_1x4_Kitchen_Appliances_E?&fmt=webp&h=180%202x"
+    },{
+        "cardId" : 6,
+        "cardName" : "Home Care Sale",
+        "cardDescription" : "Shop Now",
+        "cardImg" : "https://media.extra.com/i/aurora/M24_1x4_HomeCare_E?&fmt=webp&h=90%201x,%20https://media.extra.com/i/aurora/M24_1x4_HomeCare_E?&fmt=webp&h=180%202x"
+    },{
+        "cardId" : 7,
+        "cardName" : "TVs Sale",
+        "cardDescription" : "Shop Now",
+        "cardImg" : "https://media.extra.com/i/aurora/M24_1x4_TVs_E?&fmt=webp&h=90%201x,%20https://media.extra.com/i/aurora/M24_1x4_TVs_E?&fmt=webp&h=180%202x"
+    },{
+        "cardId" : 8,
+        "cardName" : "ACs Sale",
+        "cardDescription" : "Shop Now",
+        "cardImg" : "https://media.extra.com/i/aurora/M24_1x4_ACs_E?&fmt=webp&h=90%201x,%20https://media.extra.com/i/aurora/M24_1x4_ACs_E?&fmt=webp&h=180%202x"
+    }
+]
+}
