@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios'
 import { Link } from 'react-router-dom';
+import "./card.json"
 export const ShopCard = () => {
   const [data , SetData] = useState([])
     useEffect(()=>{
-      axios.get('src/components/home/shopcard/card.json')
+      axios.get('/src/components/home/shopcard/card.json')
       .then(res => SetData(res.data.cards))
-      
     }, []);
     return (
      <div className="CardsSection">

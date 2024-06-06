@@ -239,7 +239,7 @@
 },{
     "offerId" : 10,
     "specialOffer" : "Special Offer",
-    "imgUrl" : "https://media.extra.com/s/aurora/100297358_800/Apple-Ipad-9-Gen%2C-Wi-Fi%2C-10-2-inch%2C-64GB%2C-Space-Grey?locale=en-GB,en-*,*&fmt=auto&$productTileM1x$%201x,%20https://media.extra.com/s/aurora/100297358_800/Apple-Ipad-9-Gen%2C-Wi-Fi%2C-10-2-inch%2C-64GB%2C-Space-Grey?locale=en-GB,en-*,*&fmt=auto&$productTileM2x$%202x",
+    "imgUrl" : "public/offers/Apple-white-iPhone-15,-5G,-6-1-inch,-128GB,-Blue.png",
     "brand" : "Apple",
     "title" : "Apple iPhone 15, 5G, 6.1 inch, 128GB, Blue",
     "rate" : "4.7",
@@ -259,7 +259,7 @@
 },{
     "offerId" : 11,
     "megaSale" : "Mega Sale",
-    "imgUrl" : "https://media.extra.com/s/aurora/100300839_800/Apple-Airpods-3-Gen%2Cwith-magsafe-charging-Case%2C-White?locale=en-GB,en-*,*&fmt=auto&$productTileM1x$%201x,%20https://media.extra.com/s/aurora/100300839_800/Apple-Airpods-3-Gen%2Cwith-magsafe-charging-Case%2C-White?locale=en-GB,en-*,*&fmt=auto&$productTileM2x$%202x",
+    "imgUrl" : "public/offers/Apple-Watch-Series-9-GPS-41mm-Starlight-Aluminium-Case-with-Starlight-Sport-Band---S-M.png",
     "brand" : "Apple",
     "title" : "Apple Watch Series 9 GPS 41mm Starlight Aluminium Case with Starlight Sport Band - S/M",
     "rate" : "4.7",
@@ -279,7 +279,7 @@
 },{
     "offerId" : 12,
     "specialOffer" : "Special Offer",
-    "imgUrl" : "https://media.extra.com/s/aurora/100315750_800/Apple-iPhone-14-Plus%2C-5G%2C-128GB%2C-Blue?locale=en-GB,en-*,*&fmt=auto&$productTileM1x$%201x,%20https://media.extra.com/s/aurora/100315750_800/Apple-iPhone-14-Plus%2C-5G%2C-128GB%2C-Blue?locale=en-GB,en-*,*&fmt=auto&$productTileM2x$%202x",
+    "imgUrl" : "public/offers/Apple-iPhone-15-Pro-Max,-5G,-6-7-inch,-256GB,-Natural-Titanium.png",
     "brand" : "Apple",
     "title" : "Apple iPhone 15 Pro, 5G, 6.1 inch, 128GB, Natural Titanium",
     "rate" : "4.7",
@@ -299,7 +299,7 @@
 },{
     "offerId" : 13,
     "specialOffer" : "Special Offer",
-    "imgUrl" : "https://media.extra.com/s/aurora/100345760_800/Apple-iPhone-15-Pro%2C-5G%2C-6-1-inch%2C-256GB%2C-Natural-Titanium?locale=en-GB,en-*,*&fmt=auto&$productTileM1x$%201x,%20https://media.extra.com/s/aurora/100345760_800/Apple-iPhone-15-Pro%2C-5G%2C-6-1-inch%2C-256GB%2C-Natural-Titanium?locale=en-GB,en-*,*&fmt=auto&$productTileM2x$%202x",
+    "imgUrl" : "public/offers/Apple-Watch-Series-9-GPS-45mm-Midnight-Aluminium-Case-with-Midnight-Sport-Band---M-L.png",
     "brand" : "Apple",
     "title" : "Apple Watch Series 9 GPS 45mm Midnight Aluminium Case with Midnight Sport..",
     "rate" : "4.7",
@@ -319,7 +319,7 @@
 },{
     "offerId" : 14,
     "megaSale" : "Mega Sale",
-    "imgUrl" : "https://media.extra.com/s/aurora/100316115_800/Apple-iPad-Pro-2022%2C-Wi-Fi%2C-11-inch%2C-256GB%2C-Space-Grey?locale=en-GB,en-*,*&fmt=auto&$productTileM1x$%201x,%20https://media.extra.com/s/aurora/100316115_800/Apple-iPad-Pro-2022%2C-Wi-Fi%2C-11-inch%2C-256GB%2C-Space-Grey?locale=en-GB,en-*,*&fmt=auto&$productTileM2x$%202x",
+    "imgUrl" : "public/offers/Apple-Watch-Series-9-GPS-45mm-Midnight-Aluminium-Case-with-Midnight-Sport-Band---M-L.png",
     "brand" : "Apple",
     "title" : "Apple Watch Series 9 GPS 45mm Midnight Aluminium Case with Midnight Sport..",
     "rate" : "4.7",
@@ -339,7 +339,7 @@
 },{
     "offerId" : 15,
     "specialOffer" : "Special Offer",
-    "imgUrl" : "https://media.extra.com/s/aurora/100347651_800/Apple-Watch-SE-GPS-44mm-Midnight-Aluminium-Case-with-Midnight-Sport-Band%2CM-L?locale=en-GB,en-*,*&fmt=auto&$productTileM1x$%201x,%20https://media.extra.com/s/aurora/100347651_800/Apple-Watch-SE-GPS-44mm-Midnight-Aluminium-Case-with-Midnight-Sport-Band%2CM-L?locale=en-GB,en-*,*&fmt=auto&$productTileM2x$%202x",
+    "imgUrl" : "public/offers/Apple-Watch-Series-9-GPS-45mm-Midnight-Aluminium-Case-with-Midnight-Sport-Band---M-L.png",
     "brand" : "Apple",
     "title" : "Apple Watch Series 9 GPS 45mm Midnight Aluminium Case with Midnight Sport..",
     "rate" : "4.7",
@@ -358,11 +358,11 @@
     }]
 }
 ,{
-    "offerId" : 16,
+    "offerId" : 15,
     "sabOffer" : "SAB Offer",
     "specialOffer" : "Special Offer",
     "megaSale" : "Mega Sale",
-    "imgUrl" : "https://media.extra.com/s/aurora/100322283_800/Apple-AirPods-3rd%C2%A0Gen-with-Lightning-Charging-Case%2C-White?locale=en-GB,en-*,*&fmt=auto&$productTileM1x$%201x,%20https://media.extra.com/s/aurora/100322283_800/Apple-AirPods-3rd%C2%A0Gen-with-Lightning-Charging-Case%2C-White?locale=en-GB,en-*,*&fmt=auto&$productTileM2x$%202x",
+    "imgUrl" : "public/offers/Apple-Watch-Series-9-GPS-45mm-Midnight-Aluminium-Case-with-Midnight-Sport-Band---M-L.png",
     "brand" : "Apple",
     "title" : "Apple Watch Series 9 GPS 45mm Midnight Aluminium Case with Midnight Sport..",
     "rate" : "4.7",
@@ -390,7 +390,7 @@
     "sabOffer" : "SAB Offer",
     "specialOffer" : "Special Offer",
     "megaSale" : "Mega Sale",
-    "imgUrl" : "https://media.extra.com/s/aurora/100345839_800/Apple-iPhone-15-Pro-Max%2C-5G%2C-6-7-inch%2C-256GB%2C-Natural-Titanium?locale=en-GB,en-*,*&fmt=auto&$productTileM1x$%201x,%20https://media.extra.com/s/aurora/100345839_800/Apple-iPhone-15-Pro-Max%2C-5G%2C-6-7-inch%2C-256GB%2C-Natural-Titanium?locale=en-GB,en-*,*&fmt=auto&$productTileM2x$%202x",
+    "imgUrl" : "public/offers/Apple-iPhone-15-Pro-Max,-5G,-6-7-inch,-256GB,-Natural-Titanium.png",
     "brand" : "Apple",
     "title" : "Apple iPhone 15 Pro Max, 5G, 6.7-inch, 256GB, Natural Titanium",
     "rate" : "4.6",
@@ -415,7 +415,7 @@
     "sabOffer" : "SAB Offer",
     "specialOffer" : "Special Offer",
     "megaSale" : "Mega Sale",
-    "imgUrl" : "https://media.extra.com/s/aurora/100291281_800/Apple-iPhone-13-%2C-5G%2C-128GB%2C-Blue?locale=en-GB,en-*,*&fmt=auto&$productTileM1x$%201x,%20https://media.extra.com/s/aurora/100291281_800/Apple-iPhone-13-%2C-5G%2C-128GB%2C-Blue?locale=en-GB,en-*,*&fmt=auto&$productTileM2x$%202x",
+    "imgUrl" : "public/offers/Samsung-Galaxy-S24-Ultra,-5G,-6-8-Inch,-256GB,-Titanium-Gray.png",
     "brand" : "SAMSUNG",
     "title" : "Samsung Galaxy S24 Ultra, 5G, 6.8 Inch, 256GB, Titanium Gray",
     "rate" : "4.3",
@@ -439,7 +439,7 @@
     "sabOffer" : "SAB Offer",
     "specialOffer" : "Special Offer",
     "megaSale" : "Mega Sale",
-    "imgUrl" : "https://media.extra.com/i/aurora/100349342_100_01?fmt=auto&w=720",
+    "imgUrl" : "public/offers/LENOVO-IdeaPad-1,-Core-i7,-16GB,-512GB-SSD,-15-6-inch,-Cloud-Grey.png",
     "brand" : "LENOVO",
     "title" : "LENOVO IdeaPad 1, Core i7, 16GB, 512GB SSD, 15.6 inch, Cloud Grey",
     "rate" : "4.6",

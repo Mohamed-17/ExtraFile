@@ -1,17 +1,15 @@
 import React, { useEffect } from 'react'
 import { useRef, useState } from "react";
-// Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Link } from "react-router-dom";
 import axios from 'axios'
-// Import Swiper styles
 import 'swiper/swiper-bundle.css';
 import 'swiper/css/pagination';
 import "swiper/css";
 export const ValueGifts = () => {
 const [data , setData] = useState([]);
 useEffect(()=>{
-    axios.get('src/components/home/shopcard/valueGifts.json')
+    axios.get('/src/components/home/shopcard/valueGifts.json')
     .then((res) => setData(res.data.valueGifts))
 },[])
 return (
