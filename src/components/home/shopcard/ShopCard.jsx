@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios'
 import { Link } from 'react-router-dom';
-import "./card.json"
+
 export const ShopCard = () => {
   const [data , SetData] = useState([])
     useEffect(()=>{
-      axios.get('C:\Users\Ghost\Desktop\Extra-finalProject\ExtraFile\src\components\home\shopcard')
-      .then(res => SetData(res.data.cards))
+      axios.get('http://localhost:8000/cards')
+      .then(res => SetData(res.data))
     }, []);
     return (
       
