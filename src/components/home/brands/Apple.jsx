@@ -78,10 +78,11 @@ return (
                 </div>
                 <p>{data.sub}</p>
                 
+                
                 <div className="companyImgs">
-                <img src="public/offers/imgs/Baseeta-english-logo.png" alt="" />
-                <img src="public/offers/imgs/tamara-icon.png" alt="" />
-                <img src="public/offers/imgs/tabby_new.png" alt="" />
+                <img src="https://exprdstrgcdn.blob.core.windows.net/exprdeccdn01/ImagesSections/hybris/apps/CategoryIcons/newuiuxicons/Baseeta-english-logo.png" alt="" />
+                <img src="https://media.extra.com/i/aurora/tamara-icon" alt="" />
+                <img src="https://media.extra.com/i/aurora/tabby_new" alt="" />
                 </div>
                 </Link>
                </div>
@@ -143,9 +144,9 @@ return (
                 <p>{data.sub}</p>
                 
                 <div className="companyImgs">
-                <img src="public/offers/imgs/Baseeta-english-logo.png" alt="" />
-                <img src="public/offers/imgs/tamara-icon.png" alt="" />
-                <img src="public/offers/imgs/tabby_new.png" alt="" />
+                <img src="https://exprdstrgcdn.blob.core.windows.net/exprdeccdn01/ImagesSections/hybris/apps/CategoryIcons/newuiuxicons/Baseeta-english-logo.png" alt="" />
+                <img src="https://media.extra.com/i/aurora/tamara-icon" alt="" />
+                <img src="https://media.extra.com/i/aurora/tabby_new" alt="" />
                 </div>
                 </Link>
                </div>
@@ -207,9 +208,9 @@ return (
                 <p>{data.sub}</p>
                 
                 <div className="companyImgs">
-                <img src="public/offers/imgs/Baseeta-english-logo.png" alt="" />
-                <img src="public/offers/imgs/tamara-icon.png" alt="" />
-                <img src="public/offers/imgs/tabby_new.png" alt="" />
+                <img src="https://exprdstrgcdn.blob.core.windows.net/exprdeccdn01/ImagesSections/hybris/apps/CategoryIcons/newuiuxicons/Baseeta-english-logo.png" alt="" />
+                <img src="https://media.extra.com/i/aurora/tamara-icon" alt="" />
+                <img src="https://media.extra.com/i/aurora/tabby_new" alt="" />
                 </div>
                 </Link>
                </div>
