@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 export const ShopCard = () => {
   const [data , SetData] = useState([])
     useEffect(()=>{
-      axios.get('http://localhost:8000/cards')
+      axios.get('http://localhost:3031/cards')
       .then(res => SetData(res.data))
     }, []);
     return (

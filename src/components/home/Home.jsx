@@ -8,7 +8,6 @@ import { Apple } from './brands/Apple'
 import { SabOffer } from './brands/SabOffer'
 import { LastPieceDeal } from './LastPieceDeal'
 import { Cashback } from './brands/Cashback'
-import { Trending } from './brands/Trending'
 import { HonorBanner } from './HonorBanner'
 import { BestSellers } from './sales/BestSellers'
 import { MegaSale } from './sales/MegaSale'
@@ -29,7 +28,6 @@ export const Home = () => {
     <SabOffer/>
     <Cashback/>
     <LastPieceDeal/>
-    <Trending/>
     <HonorBanner/>
     <BestSellers/>
     <MegaSale/>

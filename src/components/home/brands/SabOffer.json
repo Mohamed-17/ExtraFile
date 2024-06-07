@@ -7,7 +7,7 @@
         "brandImg" : "public/brands/Samsung_BrandLogo.png"
     },{
         "brandId" : 3,
-        "brandImg" : "public/brands/ClassPro_BrandLogo.png"
+        "brandImg" : "https://media.extra.com/i/aurora/ClassPro_BrandLogo"
     },{
         "brandId" : 4,
         "brandImg" : "public/brands/LG_BrandLogo.png"

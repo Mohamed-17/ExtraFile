@@ -19,7 +19,7 @@ import { Navigation } from 'swiper/modules';
 export const BestSellers = () => {
     const [data,setData] = useState([]);
     useEffect(()=>{
-        axios.get('http://localhost:3031/bestSellers').then(
+        axios.get('http://localhost:3031/BestSellers').then(
             (respone) => setData(respone.data),
             
         )
@@ -35,7 +35,7 @@ export const BestSellers = () => {
        
         <div className="CardAppleHolder d-flex mb-5">
         
-        {data.slice(0,7).map((data , index) =>{
+        {data.slice(1,5).map((data , index) =>{
             return(
                 <div className="container-fluid col-4 me-2" key={data.offerId}>
                 <div className="abslouteNamber svelte-x83xky" id={data.sallerId}><span>{data.offerId}</span></div>
@@ -86,9 +86,9 @@ export const BestSellers = () => {
                 <p>{data.sub}</p>
                 
                 <div className="companyImgs">
-                <img src="public/offers/imgs/Baseeta-english-logo.png" alt="" />
-                <img src="public/offers/imgs/tamara-icon.png" alt="" />
-                <img src="public/offers/imgs/tabby_new.png" alt="" />
+                <img src="https://exprdstrgcdn.blob.core.windows.net/exprdeccdn01/ImagesSections/hybris/apps/CategoryIcons/newuiuxicons/Baseeta-english-logo.png" alt="" />
+                <img src="https://media.extra.com/i/aurora/tamara-icon" alt="" />
+                <img src="https://media.extra.com/i/aurora/tabby_new" alt="" />
                 </div>
                 </Link>
                </div>
@@ -100,7 +100,6 @@ export const BestSellers = () => {
                 
         </div>
         </SwiperSlide>
-        <SwiperSlide></SwiperSlide>
         <SwiperSlide></SwiperSlide>
       </Swiper>
     </div>

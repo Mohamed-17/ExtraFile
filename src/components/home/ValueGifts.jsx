@@ -9,8 +9,8 @@ import "swiper/css";
 export const ValueGifts = () => {
 const [data , setData] = useState([]);
 useEffect(()=>{
-    axios.get('/src/components/home/shopcard/valueGifts.json')
-    .then((res) => setData(res.data.valueGifts))
+    axios.get('http://localhost:3031/valueGifts')
+    .then((res) => setData(res.data))
 },[])
 return (
     <div className="giftSection w-100">

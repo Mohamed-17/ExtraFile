@@ -33,55 +33,55 @@ export const BestSellersTwo = () => {
     const lis = document.querySelectorAll(".ulLinks a");
     
 const mobile = useEffect(()=>{
-    axios.get('http://localhost:3055/Mobiles').then(
+    axios.get('http://localhost:3031/Mobiles').then(
         (respone) => setMobileData(respone.data),
         
     )
 },[]);
     const tvs = useEffect(()=>{
-        axios.get('http://localhost:3055/Tvs').then(
+        axios.get('http://localhost:3031/Tvs').then(
             (respone) => setTvsData(respone.data),
             
         )
 },[]);
     const lapTops = useEffect(()=>{
-        axios.get('http://localhost:3055/lapTops').then(
+        axios.get('http://localhost:3031/lapTops').then(
             (respone) => setlapTopsData(respone.data),
             
         )
 },[]);
     const washing = useEffect(()=>{
-        axios.get('http://localhost:3055/washing').then(
+        axios.get('http://localhost:3031/washing').then(
             (respone) => setWashingData(respone.data),
             
         )
 },[]);
     const refrigetaror = useEffect(()=>{
-        axios.get('http://localhost:3055/refrigetarors').then(
+        axios.get('http://localhost:3031/refrigetarors').then(
             (respone) => setrefrigetarorData(respone.data),
             
         )
 },[]);
     const tablets = useEffect(()=>{
-        axios.get('http://localhost:3055/tablets').then(
+        axios.get('http://localhost:3031/tablets').then(
             (respone) => settabletsData(respone.data),
             
         )
 },[]);
     const vacuum = useEffect(()=>{
-        axios.get('http://localhost:3055/vacuum').then(
+        axios.get('http://localhost:3031/vacuum').then(
             (respone) => setVacuumData(respone.data),
             
         )
 },[]);
     const microwaves = useEffect(()=>{
-        axios.get('http://localhost:3055/microwaves').then(
+        axios.get('http://localhost:3031/microwaves').then(
             (respone) => setMicrowavesData(respone.data),
             
         )
 },[]);
     const outdoors = useEffect(()=>{
-        axios.get('http://localhost:3055/outdoors').then(
+        axios.get('http://localhost:3031/outdoors').then(
             (respone) => setOutdoorData(respone.data),
             
         )
@@ -191,9 +191,9 @@ const mobile = useEffect(()=>{
                 <p>{data.sub}</p>
                 
                 <div className="companyImgs">
-                <img src="public/offers/imgs/Baseeta-english-logo.png" alt="" />
-                <img src="public/offers/imgs/tamara-icon.png" alt="" />
-                <img src="public/offers/imgs/tabby_new.png" alt="" />
+                <img src="https://exprdstrgcdn.blob.core.windows.net/exprdeccdn01/ImagesSections/hybris/apps/CategoryIcons/newuiuxicons/Baseeta-english-logo.png" alt="" />
+                <img src="https://media.extra.com/i/aurora/tamara-icon" alt="" />
+                <img src="https://media.extra.com/i/aurora/tabby_new" alt="" />
                 </div>
                 </Link>
                 
@@ -267,9 +267,9 @@ const mobile = useEffect(()=>{
               <p>{data.sub}</p>
               
               <div className="companyImgs">
-              <img src="public/offers/imgs/Baseeta-english-logo.png" alt="" />
-              <img src="public/offers/imgs/tamara-icon.png" alt="" />
-              <img src="public/offers/imgs/tabby_new.png" alt="" />
+              <img src="https://exprdstrgcdn.blob.core.windows.net/exprdeccdn01/ImagesSections/hybris/apps/CategoryIcons/newuiuxicons/Baseeta-english-logo.png" alt="" />
+                <img src="https://media.extra.com/i/aurora/tamara-icon" alt="" />
+                <img src="https://media.extra.com/i/aurora/tabby_new" alt="" />
               </div>
               </Link>
               
@@ -344,9 +344,9 @@ const mobile = useEffect(()=>{
               <p>{data.sub}</p>
               
               <div className="companyImgs">
-              <img src="public/offers/imgs/Baseeta-english-logo.png" alt="" />
-              <img src="public/offers/imgs/tamara-icon.png" alt="" />
-              <img src="public/offers/imgs/tabby_new.png" alt="" />
+              <img src="https://exprdstrgcdn.blob.core.windows.net/exprdeccdn01/ImagesSections/hybris/apps/CategoryIcons/newuiuxicons/Baseeta-english-logo.png" alt="" />
+                <img src="https://media.extra.com/i/aurora/tamara-icon" alt="" />
+                <img src="https://media.extra.com/i/aurora/tabby_new" alt="" />
               </div>
               </Link>
               
@@ -420,9 +420,9 @@ const mobile = useEffect(()=>{
               <p>{data.sub}</p>
               
               <div className="companyImgs">
-              <img src="public/offers/imgs/Baseeta-english-logo.png" alt="" />
-              <img src="public/offers/imgs/tamara-icon.png" alt="" />
-              <img src="public/offers/imgs/tabby_new.png" alt="" />
+              <img src="https://exprdstrgcdn.blob.core.windows.net/exprdeccdn01/ImagesSections/hybris/apps/CategoryIcons/newuiuxicons/Baseeta-english-logo.png" alt="" />
+              <img src="https://media.extra.com/i/aurora/tamara-icon" alt="" />
+              <img src="https://media.extra.com/i/aurora/tabby_new" alt="" />
               </div>
               </Link>
               
@@ -496,9 +496,9 @@ const mobile = useEffect(()=>{
             <p>{data.sub}</p>
             
             <div className="companyImgs">
-            <img src="public/offers/imgs/Baseeta-english-logo.png" alt="" />
-            <img src="public/offers/imgs/tamara-icon.png" alt="" />
-            <img src="public/offers/imgs/tabby_new.png" alt="" />
+            <img src="https://exprdstrgcdn.blob.core.windows.net/exprdeccdn01/ImagesSections/hybris/apps/CategoryIcons/newuiuxicons/Baseeta-english-logo.png" alt="" />
+                <img src="https://media.extra.com/i/aurora/tamara-icon" alt="" />
+                <img src="https://media.extra.com/i/aurora/tabby_new" alt="" />
             </div>
             </Link>
             
@@ -572,9 +572,9 @@ const mobile = useEffect(()=>{
             <p>{data.sub}</p>
             
             <div className="companyImgs">
-            <img src="public/offers/imgs/Baseeta-english-logo.png" alt="" />
-            <img src="public/offers/imgs/tamara-icon.png" alt="" />
-            <img src="public/offers/imgs/tabby_new.png" alt="" />
+            <img src="https://exprdstrgcdn.blob.core.windows.net/exprdeccdn01/ImagesSections/hybris/apps/CategoryIcons/newuiuxicons/Baseeta-english-logo.png" alt="" />
+            <img src="https://media.extra.com/i/aurora/tamara-icon" alt="" />
+            <img src="https://media.extra.com/i/aurora/tabby_new" alt="" />
             </div>
             </Link>
             
@@ -648,9 +648,9 @@ const mobile = useEffect(()=>{
             <p>{data.sub}</p>
             
             <div className="companyImgs">
-            <img src="public/offers/imgs/Baseeta-english-logo.png" alt="" />
-            <img src="public/offers/imgs/tamara-icon.png" alt="" />
-            <img src="public/offers/imgs/tabby_new.png" alt="" />
+            <img src="https://exprdstrgcdn.blob.core.windows.net/exprdeccdn01/ImagesSections/hybris/apps/CategoryIcons/newuiuxicons/Baseeta-english-logo.png" alt="" />
+                <img src="https://media.extra.com/i/aurora/tamara-icon" alt="" />
+                <img src="https://media.extra.com/i/aurora/tabby_new" alt="" />
             </div>
             </Link>
             
@@ -724,9 +724,9 @@ const mobile = useEffect(()=>{
             <p>{data.sub}</p>
             
             <div className="companyImgs">
-            <img src="public/offers/imgs/Baseeta-english-logo.png" alt="" />
-            <img src="public/offers/imgs/tamara-icon.png" alt="" />
-            <img src="public/offers/imgs/tabby_new.png" alt="" />
+            <img src="https://exprdstrgcdn.blob.core.windows.net/exprdeccdn01/ImagesSections/hybris/apps/CategoryIcons/newuiuxicons/Baseeta-english-logo.png" alt="" />
+                <img src="https://media.extra.com/i/aurora/tamara-icon" alt="" />
+                <img src="https://media.extra.com/i/aurora/tabby_new" alt="" />
             </div>
             </Link>
             
@@ -800,9 +800,9 @@ const mobile = useEffect(()=>{
             <p>{data.sub}</p>
             
             <div className="companyImgs">
-            <img src="public/offers/imgs/Baseeta-english-logo.png" alt="" />
-            <img src="public/offers/imgs/tamara-icon.png" alt="" />
-            <img src="public/offers/imgs/tabby_new.png" alt="" />
+            <img src="https://exprdstrgcdn.blob.core.windows.net/exprdeccdn01/ImagesSections/hybris/apps/CategoryIcons/newuiuxicons/Baseeta-english-logo.png" alt="" />
+                <img src="https://media.extra.com/i/aurora/tamara-icon" alt="" />
+                <img src="https://media.extra.com/i/aurora/tabby_new" alt="" />
             </div>
             </Link>
             
